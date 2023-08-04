@@ -50,20 +50,20 @@ public class ProductoServiceBean implements ProductoServiceLocal {
 	}
 
 	@Override
-	public Response buscarCliente(Cliente cliente) {
+	public Response buscarCliente(String cliente) {
 		Response response = new Response();
 		Cliente c = null;
 		try {
 
-			if (cliente.getIdCliente().length() > 9) {
+			if (cliente.length() > 12) {
 
 				response.setStatus(false);
 				response.setMessage("Codigo Incorrecto");
 				return response;
 			}
 
-			String clienteX = SeguridadData.encriptar(cliente.getIdCliente(), "clavesecreta!");
-			cliente.setIdCliente(clienteX);
+			String clienteX = SeguridadData.encriptar(cliente, "clavesecreta!");
+			cliente = clienteX ;
 			c = repositorio.buscarCliente(cliente);
 
 			if (c != null) {
@@ -125,7 +125,7 @@ public class ProductoServiceBean implements ProductoServiceLocal {
 	}
 
 	@Override
-	public List<Movimiento> buscarMovimientos(Cliente cliente) {
+	public List<Movimiento> buscarMovimientos(String cliente) {
 		// TODO Auto-generated method stub
 		return repositorio.buscarMovimientos(cliente);
 	}

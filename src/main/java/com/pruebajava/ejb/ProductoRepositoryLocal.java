@@ -14,6 +14,6 @@ public interface ProductoRepositoryLocal {
 	public List<Cliente> buscarTodos();
 	public void insertar(Cliente cliente);
 	public void borrar(Cliente cliente);
-	public Cliente buscarCliente(Cliente cliente);
-	public List<Movimiento> buscarMovimientos(Cliente cliente);
+	public Cliente buscarCliente(String cliente);
+	public List<Movimiento> buscarMovimientos(String cliente);
 }

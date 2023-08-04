@@ -40,16 +40,16 @@ public class ProductoRepositoryBean implements ProductoRepositoryLocal {
 	}
 
 	@Override
-	public Cliente buscarCliente(Cliente cliente) {
-		return entityManager.find(Cliente.class, cliente.getIdCliente());
+	public Cliente buscarCliente(String cliente) {
+		return entityManager.find(Cliente.class, cliente);
 
 	}
 
 	@Override
-	public List<Movimiento>  buscarMovimientos(Cliente cliente) {
+	public List<Movimiento>  buscarMovimientos(String cliente) {
 
 		return (List<Movimiento> )entityManager.createQuery("SELECT c FROM Movimiento c WHERE c.idCliente LIKE :idCliente")
-				.setParameter("idCliente", cliente.getIdCliente()).setMaxResults(10).getResultList();
+				.setParameter("idCliente", cliente).setMaxResults(10).getResultList();
 		
 	
 
