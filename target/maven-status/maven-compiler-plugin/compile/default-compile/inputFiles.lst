@@ -1,0 +1,14 @@
+/Users/telo/workSpace/AppRest2/src/main/java/com/pruebajava/restapi/RestActivator.java
+/Users/telo/workSpace/AppRest2/src/main/java/com/pruebajava/ejb/ProductoRepositoryJDBCBean.java
+/Users/telo/workSpace/AppRest2/src/main/java/com/pruebajava/dominio/Movimiento.java
+/Users/telo/workSpace/AppRest2/src/main/java/com/pruebajava/dominio/Tipo_Movimiento.java
+/Users/telo/workSpace/AppRest2/src/main/java/com/pruebajava/ejb/ProductoRepositoryJDBCLocal.java
+/Users/telo/workSpace/AppRest2/src/main/java/com/pruebajava/dominio/MovimientoDTO.java
+/Users/telo/workSpace/AppRest2/src/main/java/com/pruebajava/dominio/Cliente.java
+/Users/telo/workSpace/AppRest2/src/main/java/com/pruebajava/ejb/ProductoRepositoryBean.java
+/Users/telo/workSpace/AppRest2/src/main/java/com/pruebajava/ejb/ProductoRepositoryLocal.java
+/Users/telo/workSpace/AppRest2/src/main/java/com/pruebajava/ejb/ProductoServiceBean.java
+/Users/telo/workSpace/AppRest2/src/main/java/com/pruebajava/ejb/ProductoServiceLocal.java
+/Users/telo/workSpace/AppRest2/src/main/java/com/pruebajava/restapi/ClienteRest.java
+/Users/telo/workSpace/AppRest2/src/main/java/com/pruebajava/dominio/Response.java
+/Users/telo/workSpace/AppRest2/src/main/java/com/pruebajava/util/SeguridadData.java

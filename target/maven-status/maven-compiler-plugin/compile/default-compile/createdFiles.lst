@@ -1,0 +1,14 @@
+com/pruebajava/restapi/ClienteRest.class
+com/pruebajava/dominio/Tipo_Movimiento.class
+com/pruebajava/util/SeguridadData.class
+com/pruebajava/ejb/ProductoRepositoryJDBCBean.class
+com/pruebajava/dominio/MovimientoDTO.class
+com/pruebajava/dominio/Cliente.class
+com/pruebajava/dominio/Response.class
+com/pruebajava/ejb/ProductoRepositoryJDBCLocal.class
+com/pruebajava/dominio/Movimiento.class
+com/pruebajava/ejb/ProductoServiceBean.class
+com/pruebajava/ejb/ProductoRepositoryBean.class
+com/pruebajava/ejb/ProductoRepositoryLocal.class
+com/pruebajava/ejb/ProductoServiceLocal.class
+com/pruebajava/restapi/RestActivator.class
